@@ -76,12 +76,18 @@
     <Compile Include="SignUp.Designer.vb">
       <DependentUpon>SignUp.vb</DependentUpon>
     </Compile>
-    <Compile Include="SignUp.vb" />
+    <Compile Include="SignUp.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Login.Designer.vb">
       <DependentUpon>Login.vb</DependentUpon>
     </Compile>
-    <Compile Include="Login.vb" />
-    <Compile Include="Index.vb" />
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Index.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Index.Designer.vb">
       <DependentUpon>Index.vb</DependentUpon>
       <SubType>Form</SubType>

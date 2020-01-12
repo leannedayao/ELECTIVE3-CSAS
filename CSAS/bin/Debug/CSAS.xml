@@ -42,12 +42,22 @@ CSAS
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:CSAS.My.Resources.Resources.LoginBlue1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:CSAS.My.Resources.Resources.LoginSignUp">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:CSAS.My.Resources.Resources.Minimize">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CSAS.My.Resources.Resources.SignupBlue">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

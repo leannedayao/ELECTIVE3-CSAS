@@ -11,3 +11,16 @@ C:\Users\Leslie Ann\Desktop\CSAS\CSAS\obj\Debug\CSAS.pdb
 C:\Users\Leslie Ann\Desktop\CSAS\CSAS\obj\Debug\CSAS.Index.resources
 C:\Users\Leslie Ann\Desktop\CSAS\CSAS\obj\Debug\CSAS.SignUp.resources
 C:\Users\Leslie Ann\Desktop\CSAS\CSAS\obj\Debug\CSAS.Login.resources
+C:\Users\sambo\OneDrive\Documents\VB.Net\Elec3\CSAS\CSAS\bin\Debug\CSAS.exe.config
+C:\Users\sambo\OneDrive\Documents\VB.Net\Elec3\CSAS\CSAS\bin\Debug\CSAS.exe
+C:\Users\sambo\OneDrive\Documents\VB.Net\Elec3\CSAS\CSAS\bin\Debug\CSAS.pdb
+C:\Users\sambo\OneDrive\Documents\VB.Net\Elec3\CSAS\CSAS\bin\Debug\CSAS.xml
+C:\Users\sambo\OneDrive\Documents\VB.Net\Elec3\CSAS\CSAS\obj\Debug\CSAS.vbprojAssemblyReference.cache
+C:\Users\sambo\OneDrive\Documents\VB.Net\Elec3\CSAS\CSAS\obj\Debug\CSAS.Index.resources
+C:\Users\sambo\OneDrive\Documents\VB.Net\Elec3\CSAS\CSAS\obj\Debug\CSAS.SignUp.resources
+C:\Users\sambo\OneDrive\Documents\VB.Net\Elec3\CSAS\CSAS\obj\Debug\CSAS.Login.resources
+C:\Users\sambo\OneDrive\Documents\VB.Net\Elec3\CSAS\CSAS\obj\Debug\CSAS.Resources.resources
+C:\Users\sambo\OneDrive\Documents\VB.Net\Elec3\CSAS\CSAS\obj\Debug\CSAS.vbproj.GenerateResource.cache
+C:\Users\sambo\OneDrive\Documents\VB.Net\Elec3\CSAS\CSAS\obj\Debug\CSAS.exe
+C:\Users\sambo\OneDrive\Documents\VB.Net\Elec3\CSAS\CSAS\obj\Debug\CSAS.xml
+C:\Users\sambo\OneDrive\Documents\VB.Net\Elec3\CSAS\CSAS\obj\Debug\CSAS.pdb

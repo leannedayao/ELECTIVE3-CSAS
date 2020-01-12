@@ -74,11 +74,11 @@ Partial Class SignUp
         '
         Me.SignUpLabel.AutoSize = True
         Me.SignUpLabel.BackColor = System.Drawing.Color.Transparent
-        Me.SignUpLabel.Font = New System.Drawing.Font("Adobe Heiti Std R", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.SignUpLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.SignUpLabel.ForeColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.SignUpLabel.Location = New System.Drawing.Point(382, 63)
         Me.SignUpLabel.Name = "SignUpLabel"
-        Me.SignUpLabel.Size = New System.Drawing.Size(103, 30)
+        Me.SignUpLabel.Size = New System.Drawing.Size(110, 29)
         Me.SignUpLabel.TabIndex = 5
         Me.SignUpLabel.Text = "SIGN UP"
         '

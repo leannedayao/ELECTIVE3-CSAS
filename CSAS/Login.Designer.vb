@@ -71,11 +71,11 @@ Partial Class Login
         '
         Me.LoginLabel.AutoSize = True
         Me.LoginLabel.BackColor = System.Drawing.Color.Transparent
-        Me.LoginLabel.Font = New System.Drawing.Font("Adobe Heiti Std R", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.LoginLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.LoginLabel.ForeColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.LoginLabel.Location = New System.Drawing.Point(392, 63)
         Me.LoginLabel.Name = "LoginLabel"
-        Me.LoginLabel.Size = New System.Drawing.Size(83, 30)
+        Me.LoginLabel.Size = New System.Drawing.Size(87, 29)
         Me.LoginLabel.TabIndex = 4
         Me.LoginLabel.Text = "LOGIN"
         '
@@ -83,11 +83,11 @@ Partial Class Login
         '
         Me.UsernameLabel.AutoSize = True
         Me.UsernameLabel.BackColor = System.Drawing.Color.Transparent
-        Me.UsernameLabel.Font = New System.Drawing.Font("Adobe Heiti Std R", 13.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.UsernameLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.UsernameLabel.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.UsernameLabel.Location = New System.Drawing.Point(321, 157)
         Me.UsernameLabel.Name = "UsernameLabel"
-        Me.UsernameLabel.Size = New System.Drawing.Size(96, 23)
+        Me.UsernameLabel.Size = New System.Drawing.Size(100, 22)
         Me.UsernameLabel.TabIndex = 5
         Me.UsernameLabel.Text = "Username"
         '
@@ -95,21 +95,21 @@ Partial Class Login
         '
         Me.TextBox1.BackColor = System.Drawing.Color.White
         Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox1.Font = New System.Drawing.Font("Adobe Heiti Std R", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.TextBox1.Location = New System.Drawing.Point(325, 185)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(217, 33)
+        Me.TextBox1.Size = New System.Drawing.Size(217, 22)
         Me.TextBox1.TabIndex = 7
         '
         'PasswordLabel
         '
         Me.PasswordLabel.AutoSize = True
         Me.PasswordLabel.BackColor = System.Drawing.Color.Transparent
-        Me.PasswordLabel.Font = New System.Drawing.Font("Adobe Heiti Std R", 13.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.PasswordLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.PasswordLabel.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.PasswordLabel.Location = New System.Drawing.Point(321, 243)
         Me.PasswordLabel.Name = "PasswordLabel"
-        Me.PasswordLabel.Size = New System.Drawing.Size(91, 23)
+        Me.PasswordLabel.Size = New System.Drawing.Size(97, 22)
         Me.PasswordLabel.TabIndex = 9
         Me.PasswordLabel.Text = "Password"
         '
@@ -117,21 +117,21 @@ Partial Class Login
         '
         Me.TextBox2.BackColor = System.Drawing.Color.White
         Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox2.Font = New System.Drawing.Font("Adobe Heiti Std R", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.TextBox2.Location = New System.Drawing.Point(325, 271)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(217, 33)
+        Me.TextBox2.Size = New System.Drawing.Size(217, 22)
         Me.TextBox2.TabIndex = 10
         '
         'DontHaveAccount
         '
         Me.DontHaveAccount.AutoSize = True
         Me.DontHaveAccount.BackColor = System.Drawing.Color.Transparent
-        Me.DontHaveAccount.Font = New System.Drawing.Font("Adobe Heiti Std R", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.DontHaveAccount.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.DontHaveAccount.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.DontHaveAccount.Location = New System.Drawing.Point(280, 388)
+        Me.DontHaveAccount.Location = New System.Drawing.Point(267, 388)
         Me.DontHaveAccount.Name = "DontHaveAccount"
-        Me.DontHaveAccount.Size = New System.Drawing.Size(202, 19)
+        Me.DontHaveAccount.Size = New System.Drawing.Size(212, 18)
         Me.DontHaveAccount.TabIndex = 11
         Me.DontHaveAccount.Text = "Don't have an account yet?"
         '
@@ -139,11 +139,11 @@ Partial Class Login
         '
         Me.SignUpNow.AutoSize = True
         Me.SignUpNow.BackColor = System.Drawing.Color.Transparent
-        Me.SignUpNow.Font = New System.Drawing.Font("Adobe Heiti Std R", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.SignUpNow.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.SignUpNow.ForeColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(78, Byte), Integer), CType(CType(121, Byte), Integer))
         Me.SignUpNow.Location = New System.Drawing.Point(485, 388)
         Me.SignUpNow.Name = "SignUpNow"
-        Me.SignUpNow.Size = New System.Drawing.Size(98, 19)
+        Me.SignUpNow.Size = New System.Drawing.Size(103, 18)
         Me.SignUpNow.TabIndex = 12
         Me.SignUpNow.Text = "Sign Up now"
         '
