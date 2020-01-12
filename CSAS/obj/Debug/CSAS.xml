@@ -27,6 +27,16 @@ CSAS
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:CSAS.My.Resources.Resources.Home">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CSAS.My.Resources.Resources.Home1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:CSAS.My.Resources.Resources.IndexTemplate">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -53,6 +63,21 @@ CSAS
 </summary>
 </member>
 <member name="P:CSAS.My.Resources.Resources.Minimize">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CSAS.My.Resources.Resources.PageTemplate">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CSAS.My.Resources.Resources.PopUp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CSAS.My.Resources.Resources.PopUp1">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

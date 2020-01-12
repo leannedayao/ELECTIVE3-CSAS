@@ -12,4 +12,8 @@
     Private Sub Minimize_Click(sender As Object, e As EventArgs) Handles Minimize.Click
         Me.WindowState = FormWindowState.Minimized
     End Sub
+
+    Private Sub CloseButton_MouseHover(sender As Object, e As EventArgs) Handles CloseButton.MouseHover
+        CloseButton.BackColor = Color.FromArgb(246, 197, 164)
+    End Sub
 End Class

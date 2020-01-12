@@ -73,6 +73,60 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EditUser.Designer.vb">
+      <DependentUpon>EditUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminHome.Designer.vb">
+      <DependentUpon>AdminHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddUser.Designer.vb">
+      <DependentUpon>AddUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deactivate.Designer.vb">
+      <DependentUpon>Deactivate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Deactivate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUpTemplate.Designer.vb">
+      <DependentUpon>PopUpTemplate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpTemplate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageUsers.Designer.vb">
+      <DependentUpon>ManageUsers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManageUsers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="School.Designer.vb">
+      <DependentUpon>School.vb</DependentUpon>
+    </Compile>
+    <Compile Include="School.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Community.Designer.vb">
+      <DependentUpon>Community.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Community.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Template.Designer.vb">
+      <DependentUpon>Template.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Template.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="SignUp.Designer.vb">
       <DependentUpon>SignUp.vb</DependentUpon>
     </Compile>
@@ -109,6 +163,33 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="EditUser.resx">
+      <DependentUpon>EditUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminHome.resx">
+      <DependentUpon>AdminHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddUser.resx">
+      <DependentUpon>AddUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deactivate.resx">
+      <DependentUpon>Deactivate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUpTemplate.resx">
+      <DependentUpon>PopUpTemplate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageUsers.resx">
+      <DependentUpon>ManageUsers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="School.resx">
+      <DependentUpon>School.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Community.resx">
+      <DependentUpon>Community.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Template.resx">
+      <DependentUpon>Template.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Index.resx">
       <DependentUpon>Index.vb</DependentUpon>
     </EmbeddedResource>
@@ -160,6 +241,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\SignupBlue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PageTemplate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PopUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PopUp1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
