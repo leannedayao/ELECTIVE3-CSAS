@@ -179,7 +179,7 @@ Partial Class School
         Me.SchoolLabel.TabIndex = 23
         Me.SchoolLabel.Text = "School:"
         '
-        'SchoolPopUp
+        'School
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -201,7 +201,7 @@ Partial Class School
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.MaximumSize = New System.Drawing.Size(653, 491)
         Me.MinimumSize = New System.Drawing.Size(653, 491)
-        Me.Name = "SchoolPopUp"
+        Me.Name = "School"
         Me.Text = "SchoolPopUp"
         Me.ResumeLayout(False)
         Me.PerformLayout()

@@ -46,7 +46,7 @@ Partial Class Login
         Me.Minimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Minimize.ForeColor = System.Drawing.Color.White
         Me.Minimize.Location = New System.Drawing.Point(769, 7)
-        Me.Minimize.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Minimize.Margin = New System.Windows.Forms.Padding(4)
         Me.Minimize.MaximumSize = New System.Drawing.Size(27, 25)
         Me.Minimize.MinimumSize = New System.Drawing.Size(27, 25)
         Me.Minimize.Name = "Minimize"
@@ -65,7 +65,7 @@ Partial Class Login
         Me.CloseButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(246, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(164, Byte), Integer))
         Me.CloseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CloseButton.Location = New System.Drawing.Point(819, 7)
-        Me.CloseButton.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CloseButton.Margin = New System.Windows.Forms.Padding(4)
         Me.CloseButton.MaximumSize = New System.Drawing.Size(27, 25)
         Me.CloseButton.MinimumSize = New System.Drawing.Size(27, 25)
         Me.CloseButton.Name = "CloseButton"
@@ -105,7 +105,7 @@ Partial Class Login
         Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.TextBox1.Location = New System.Drawing.Point(433, 228)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(289, 26)
         Me.TextBox1.TabIndex = 7
@@ -129,7 +129,7 @@ Partial Class Login
         Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.TextBox2.Location = New System.Drawing.Point(433, 334)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(35)
         Me.TextBox2.ShortcutsEnabled = False
@@ -172,7 +172,7 @@ Partial Class Login
         Me.LoginButton.FlatAppearance.BorderSize = 0
         Me.LoginButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.LoginButton.Location = New System.Drawing.Point(483, 416)
-        Me.LoginButton.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LoginButton.Margin = New System.Windows.Forms.Padding(4)
         Me.LoginButton.Name = "LoginButton"
         Me.LoginButton.Size = New System.Drawing.Size(187, 43)
         Me.LoginButton.TabIndex = 13
@@ -196,7 +196,7 @@ Partial Class Login
         Me.Controls.Add(Me.CloseButton)
         Me.Controls.Add(Me.Minimize)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.MaximumSize = New System.Drawing.Size(853, 591)
         Me.MinimumSize = New System.Drawing.Size(853, 591)
         Me.Name = "Login"

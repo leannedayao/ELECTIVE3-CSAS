@@ -25,7 +25,7 @@ Partial Class ManageUsers
         Me.Minimize = New System.Windows.Forms.Button()
         Me.CloseButton = New System.Windows.Forms.Button()
         Me.LogOut = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.ManageUser = New System.Windows.Forms.Label()
         Me.SuspendLabel = New System.Windows.Forms.Label()
         Me.AddUser = New System.Windows.Forms.Button()
         Me.EditButton = New System.Windows.Forms.Button()
@@ -92,18 +92,18 @@ Partial Class ManageUsers
         Me.LogOut.TabIndex = 10
         Me.LogOut.Text = "LOG OUT"
         '
-        'Label1
+        'ManageUser
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(78, Byte), Integer), CType(CType(121, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(327, 93)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(203, 29)
-        Me.Label1.TabIndex = 9
-        Me.Label1.Text = "MANAGE USERS"
+        Me.ManageUser.AutoSize = True
+        Me.ManageUser.BackColor = System.Drawing.Color.Transparent
+        Me.ManageUser.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ManageUser.ForeColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(78, Byte), Integer), CType(CType(121, Byte), Integer))
+        Me.ManageUser.Location = New System.Drawing.Point(327, 93)
+        Me.ManageUser.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.ManageUser.Name = "ManageUser"
+        Me.ManageUser.Size = New System.Drawing.Size(203, 29)
+        Me.ManageUser.TabIndex = 9
+        Me.ManageUser.Text = "MANAGE USERS"
         '
         'SuspendLabel
         '
@@ -139,7 +139,7 @@ Partial Class ManageUsers
         Me.EditButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.EditButton.Location = New System.Drawing.Point(309, 3)
         Me.EditButton.Name = "EditButton"
-        Me.EditButton.Size = New System.Drawing.Size(70, 35)
+        Me.EditButton.Size = New System.Drawing.Size(69, 35)
         Me.EditButton.TabIndex = 18
         Me.EditButton.Text = "EDIT"
         Me.EditButton.UseVisualStyleBackColor = False
@@ -150,7 +150,7 @@ Partial Class ManageUsers
         Me.DeactivateUser.FlatAppearance.BorderSize = 0
         Me.DeactivateUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.DeactivateUser.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DeactivateUser.Location = New System.Drawing.Point(385, 44)
+        Me.DeactivateUser.Location = New System.Drawing.Point(384, 44)
         Me.DeactivateUser.Name = "DeactivateUser"
         Me.DeactivateUser.Size = New System.Drawing.Size(125, 40)
         Me.DeactivateUser.TabIndex = 20
@@ -162,7 +162,7 @@ Partial Class ManageUsers
         Me.UsersList.ColumnCount = 3
         Me.UsersList.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 80.13356!))
         Me.UsersList.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.86644!))
-        Me.UsersList.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 132.0!))
+        Me.UsersList.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 133.0!))
         Me.UsersList.Controls.Add(Me.EditButton, 1, 0)
         Me.UsersList.Controls.Add(Me.Button1, 1, 1)
         Me.UsersList.Controls.Add(Me.Button2, 1, 2)
@@ -192,7 +192,7 @@ Partial Class ManageUsers
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(309, 44)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(70, 40)
+        Me.Button1.Size = New System.Drawing.Size(69, 40)
         Me.Button1.TabIndex = 21
         Me.Button1.Text = "EDIT"
         Me.Button1.UseVisualStyleBackColor = False
@@ -205,7 +205,7 @@ Partial Class ManageUsers
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Location = New System.Drawing.Point(309, 90)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(70, 40)
+        Me.Button2.Size = New System.Drawing.Size(69, 40)
         Me.Button2.TabIndex = 22
         Me.Button2.Text = "EDIT"
         Me.Button2.UseVisualStyleBackColor = False
@@ -216,7 +216,7 @@ Partial Class ManageUsers
         Me.Button4.FlatAppearance.BorderSize = 0
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(385, 3)
+        Me.Button4.Location = New System.Drawing.Point(384, 3)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(125, 35)
         Me.Button4.TabIndex = 24
@@ -229,7 +229,7 @@ Partial Class ManageUsers
         Me.Button5.FlatAppearance.BorderSize = 0
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(385, 90)
+        Me.Button5.Location = New System.Drawing.Point(384, 90)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(125, 40)
         Me.Button5.TabIndex = 25
@@ -242,7 +242,7 @@ Partial Class ManageUsers
         Me.Button6.FlatAppearance.BorderSize = 0
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.Location = New System.Drawing.Point(385, 136)
+        Me.Button6.Location = New System.Drawing.Point(384, 136)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(125, 40)
         Me.Button6.TabIndex = 26
@@ -257,7 +257,7 @@ Partial Class ManageUsers
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.Location = New System.Drawing.Point(309, 136)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(70, 40)
+        Me.Button3.Size = New System.Drawing.Size(69, 40)
         Me.Button3.TabIndex = 23
         Me.Button3.Text = "EDIT"
         Me.Button3.UseVisualStyleBackColor = False
@@ -270,7 +270,7 @@ Partial Class ManageUsers
         Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button7.Location = New System.Drawing.Point(309, 182)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(70, 37)
+        Me.Button7.Size = New System.Drawing.Size(69, 37)
         Me.Button7.TabIndex = 27
         Me.Button7.Text = "EDIT"
         Me.Button7.UseVisualStyleBackColor = False
@@ -281,7 +281,7 @@ Partial Class ManageUsers
         Me.Button8.FlatAppearance.BorderSize = 0
         Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button8.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button8.Location = New System.Drawing.Point(385, 182)
+        Me.Button8.Location = New System.Drawing.Point(384, 182)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(125, 37)
         Me.Button8.TabIndex = 28
@@ -321,7 +321,7 @@ Partial Class ManageUsers
         Me.Controls.Add(Me.UsersList)
         Me.Controls.Add(Me.AddUser)
         Me.Controls.Add(Me.LogOut)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.ManageUser)
         Me.Controls.Add(Me.SuspendLabel)
         Me.Controls.Add(Me.Minimize)
         Me.Controls.Add(Me.CloseButton)
@@ -341,7 +341,7 @@ Partial Class ManageUsers
     Friend WithEvents Minimize As Button
     Friend WithEvents CloseButton As Button
     Friend WithEvents LogOut As Label
-    Friend WithEvents Label1 As Label
+    Friend WithEvents ManageUser As Label
     Friend WithEvents SuspendLabel As Label
     Friend WithEvents AddUser As Button
     Friend WithEvents EditButton As Button
